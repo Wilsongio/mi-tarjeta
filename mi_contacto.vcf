@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Apellido;Nombre;;;
+FN:Nombre Apellido
+ORG:Mi Empresa
+TITLE:Desarrollador Python
+TEL;TYPE=CELL:+521234567890
+EMAIL:tu@correo.com
+URL:https://tu-usuario.github.io/mi-tarjeta/
+END:VCARD

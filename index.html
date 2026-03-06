@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Digital</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            background: #1a1a1a;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 450px;
+            margin: auto;
+            background: #2d2d2d;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        img.profile {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #007bff;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: block;
+            background: #007bff;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+            transform: scale(1.02);
+        }
+
+        .btn-contact {
+            background: #28a745;
+        }
+
+        /* Color verde para el contacto */
+        .video-box {
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="tu-foto.jpg" alt="Perfil" class="profile">
+        <h1>Hola, soy [Tu Nombre]</h1>
+        <p>Especialista en [Tu Área]</p>
+
+        <a href="mi_contacto.vcf" class="btn btn-contact">📥 GUARDAR MI CONTACTO</a>
+
+        <div class="video-box">
+            <p>Mira mi último proyecto:</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+
+        <a href="https://linkedin.com/in/tu-usuario" class="btn">LinkedIn</a>
+        <a href="https://instagram.com/tu-usuario" class="btn">Instagram</a>
+
+        <div class="gallery">
+            <img src="trabajo1.jpg" alt="Proyecto 1">
+            <img src="trabajo2.jpg" alt="Proyecto 2">
+        </div>
+    </div>
+</body>
+
+</html>
